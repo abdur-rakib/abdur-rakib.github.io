@@ -45,3 +45,6 @@ next-env.d.ts
 
 # pnpm local store
 /.pnpm-store
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
